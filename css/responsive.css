@@ -1,0 +1,51 @@
+/*width - example*/
+/*@media (max-width:1000px) {
+	.left-block {
+		width: 200px;
+	}
+	.right-block {
+		width: 200px;
+		background-color: pink;
+	}
+
+}
+
+@media (max-width: 480px) {
+	.right-block {
+		display: none;
+	}
+}
+
+@media (max-width: 400px) {
+	.right-block {
+		display: block;
+	}
+}*/
+
+
+
+
+/*direction - flex example*/
+@media (max-width: 950px) {
+	.wraper-box {
+		flex-direction: column;
+		align-items: center;
+	}
+	.center-block {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+}
+
+/*flex-wrap example*/
+/*@media (max-width: 950px) {
+	.wraper-box {
+		flex-wrap: wrap;
+	}
+}*/
+
+/*@media (max-width: 600px) {
+	.wraper-box {
+		justify-content: center;
+	}
+}*/
