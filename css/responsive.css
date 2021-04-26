@@ -1,51 +1,58 @@
-/*width - example*/
-/*@media (max-width:1000px) {
+@media (max-width: 1160px) {
+	.section-bg {
+		height: auto;
+	}
 	.left-block {
-		width: 200px;
+		margin-bottom: 30px;
 	}
-	.right-block {
-		width: 200px;
-		background-color: pink;
+	.video-wraper {
+		justify-content: center;
 	}
-
-}
-
-@media (max-width: 480px) {
-	.right-block {
-		display: none;
+	.container {
+		padding: 0 30px;
 	}
-}
-
-@media (max-width: 400px) {
-	.right-block {
-		display: block;
-	}
-}*/
-
-
-
-
-/*direction - flex example*/
-@media (max-width: 950px) {
-	.wraper-box {
+	.article-wraper {
 		flex-direction: column;
 		align-items: center;
 	}
-	.center-block {
-		margin-top: 30px;
+	.left-wraper {
 		margin-bottom: 30px;
 	}
 }
 
-/*flex-wrap example*/
-/*@media (max-width: 950px) {
-	.wraper-box {
-		flex-wrap: wrap;
+
+/*images flex-direction example*/
+/*@media (max-width: 1140px) {
+	.image-wraper {
+		flex-direction: column;
+		align-items: center;
 	}
 }*/
 
-/*@media (max-width: 600px) {
-	.wraper-box {
-		justify-content: center;
+
+/*% - examples*/
+@media (max-width: 1145px) {
+	.block-img {
+		width: 48%;
 	}
-}*/
+}
+
+@media (max-width: 480px) {
+	.block-img {
+		width: 100%;
+	}
+}
+
+
+
+
+/*header responsive*/
+@media (max-width: 768px) {
+	.navigation,
+	.social-icons {
+		display: none;
+	}
+	.burger-icon {
+		display: block;
+	}
+}
